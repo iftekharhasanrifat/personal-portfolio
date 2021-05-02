@@ -16,7 +16,7 @@ function App() {
         params={{
           "particles": {
             "number": {
-              "value": 55
+              "value": 40
             },
             "size": {
               "value": 4
@@ -31,10 +31,10 @@ function App() {
             }
           }
         }}
-        height='100vh'
+        height='50vh'
         style={{ position: 'absolute' }}
       />
-      <div style={{ position: 'relative' }}>
+      <div style={{ position: 'relative',zIndex:'20' }}>
         <Navbar></Navbar>
         <Header></Header>
         <About></About>
