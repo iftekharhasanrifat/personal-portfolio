@@ -12,11 +12,11 @@ function App() {
   return (
     <div className="app-container">
       <Particles
-        className='sticky-top'
+        className='fixed-top'
         params={{
           "particles": {
             "number": {
-              "value": 40
+              "value": 50
             },
             "size": {
               "value": 4
@@ -31,10 +31,10 @@ function App() {
             }
           }
         }}
-        height='50vh'
-        style={{ position: 'absolute' }}
+        height='100vh'
+        style={{ position: 'absolute', zIndex: '-9999' }}
       />
-      <div style={{ position: 'relative',zIndex:'20' }}>
+      <div style={{ position: 'relative', zIndex: '9999' }}>
         <Navbar></Navbar>
         <Header></Header>
         <About></About>
@@ -43,7 +43,6 @@ function App() {
         <Contact></Contact>
         <Footer></Footer>
       </div>
-
     </div>
   );
 }
