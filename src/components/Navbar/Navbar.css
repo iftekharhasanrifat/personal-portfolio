@@ -1,0 +1,29 @@
+.resume-btn{
+    width: 150px;
+    text-align: center;
+    background-color: #28a745;
+    color: aliceblue !important;
+    border-radius:20px;
+    margin-top: 4px;
+}
+.links{
+    padding: 10px;
+    border-radius: 10px;
+}
+.navbar-toggler{
+    border: 2px solid white!important;
+}
+.nav-link:hover{
+    background-color:#28a745;
+  }
+
+  .navbar-toggler{
+      background-color:#28a745;
+  }
+
+  .navbar{
+      background-color:#212529;
+  }
+  .nav-link{
+      cursor: pointer;
+  }

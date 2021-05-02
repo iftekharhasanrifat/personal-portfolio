@@ -1,0 +1,20 @@
+.skills{
+    border-radius: 5px;
+    border:1px solid white!important;
+}
+
+.skills:hover{
+    background-color:#28a745;
+}
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    cursor:pointer;
+}
+.skill-card{
+    border-radius: 10px;
+    width: 350px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #28a745;
+}

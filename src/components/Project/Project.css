@@ -1,0 +1,9 @@
+.project-card{
+    width: 350px;
+    border: 1px solid #28a745;
+    padding: 18px;
+    border-radius: 15px;
+}
+.project-card p{
+    text-align: justify!important;
+}

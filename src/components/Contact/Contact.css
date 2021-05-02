@@ -1,0 +1,11 @@
+.submit-btn{
+    background-color:#28a745;
+}
+.contact-form{
+    width:550px;
+}
+@media only screen and (max-width: 600px) {
+    .contact-form{
+        width:360px;
+    }
+  }

@@ -1,23 +1,49 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Header from './components/Header/Header';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Blogs from './components/Blogs/Blogs';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Particles from 'react-particles-js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <Particles
+        className='sticky-top'
+        params={{
+          "particles": {
+            "number": {
+              "value": 55
+            },
+            "size": {
+              "value": 4
+            }
+          },
+          "interactivity": {
+            "events": {
+              "onhover": {
+                "enable": true,
+                "mode": "repulse"
+              }
+            }
+          }
+        }}
+        height='100vh'
+        style={{ position: 'absolute' }}
+      />
+      <div style={{ position: 'relative' }}>
+        <Navbar></Navbar>
+        <Header></Header>
+        <About></About>
+        <Projects></Projects>
+        <Blogs></Blogs>
+        <Contact></Contact>
+        <Footer></Footer>
+      </div>
+
     </div>
   );
 }
