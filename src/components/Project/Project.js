@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Project.css'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 const Project = ({project}) => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+      }, [])
     return (
-        <div className='project-card text-center m-4'>
+        <div data-aos='flip-left' className='project-card text-center m-4'>
             <img width='300px' height='220px' src={project.img} alt=""/>
             <h3 className='text-white pt-4'>{project.title}</h3>
             <p className='text-white pt-4'>{project.description}</p>

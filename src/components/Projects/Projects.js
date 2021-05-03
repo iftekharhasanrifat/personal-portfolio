@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Project from '../Project/Project';
 import './Projects.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 const projects = [{
     id:'1a',
     title:'Smart Grocery Shop',
@@ -31,8 +33,11 @@ const projects = [{
 }
 ]
 const Projects = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+      }, [])
     return (
-        <div id='projects' className='pb-5'>
+        <div data-aos="fade-right" style={{overflowX:'hidden'}} id='projects' className='pb-5'>
             <h2  className='text-white text-center mt-5 mb-5 fw-bold'>My <span className='green-effect'>Projects</span></h2>
             <div className='project-container'>
                 {
