@@ -8,7 +8,7 @@ import 'aos/dist/aos.css'
 const About = () => {
     useEffect(() => {
         Aos.init({ duration: 2000 });
-      }, [])
+    }, [])
     return (
         <div style={{overflowX:'hidden'}} id='about'>
             <div className="text-center">

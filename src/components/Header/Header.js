@@ -5,8 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
 const Header = () => {
     return (
-        <section className="header text-center mt-5 pb-5">
-            
+        <section style={{marginTop:'100px'}}className="header text-center">
             <h1 className="text-light">Iftekhar <span className='green-effect'>Hasan</span></h1>
             <h3 className="text-white">I am a
                     <Typical className="green-effect" 
