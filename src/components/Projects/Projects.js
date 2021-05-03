@@ -37,7 +37,7 @@ const Projects = () => {
         Aos.init({ duration: 2000 });
       }, [])
     return (
-        <div data-aos="fade-right" style={{overflowX:'hidden'}} id='projects' className='pb-5'>
+        <div data-aos="fade-right" style={{overflowX:'hidden'}} id='projects' className='pt-5 pb-5'>
             <h2  className='text-white text-center mt-5 mb-5 fw-bold'>My <span className='green-effect'>Projects</span></h2>
             <div className='project-container'>
                 {

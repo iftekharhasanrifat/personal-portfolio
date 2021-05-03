@@ -1,8 +1,22 @@
 .project-card{
     width: 350px;
-    border: 1px solid #28a745;
+    border: 1px solid #29a847;
     padding: 18px;
     border-radius: 15px;
+}
+.project-card:hover{
+    box-shadow: 10px 10px 20px #29a847;
+}
+.project-card img{
+        border-radius: 5%;
+}
+.green-btn{
+    border: 2px solid #29a847;
+    color:white;
+}
+.green-btn:hover{
+    color:white;
+    background-color:#29a847!important;
 }
 .project-card p{
     text-align: justify!important;

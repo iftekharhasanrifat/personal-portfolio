@@ -4,7 +4,7 @@ import {Link} from 'react-scroll'
 import {animateScroll as scroll} from 'react-scroll' 
 const Navbar = () => {
     return (
-        <div>
+        <div className='mb-5'>
             <nav className="navbar fixed-top navbar-expand-lg navbar-light">
                 <div className="container-fluid">
                     <a style={{cursor:'pointer'}} className="navbar-brand text-white" onClick={()=>{scroll.scrollToTop()}}>Iftekhar Hasan</a>

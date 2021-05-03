@@ -10,7 +10,7 @@ const Skills = () => {
         Aos.init({ duration: 2000 });
     }, [])
     return (
-        <div data-aos="zoom-in" style={{overflowX:'hidden'}}>
+        <div id="skills" data-aos="zoom-in" style={{overflowX:'hidden'}}>
             <h2 className='text-center text-white mb-4 fw-bold'>My <span className='green-effect'>Skills</span></h2>
             <div className='my-skills'>
 

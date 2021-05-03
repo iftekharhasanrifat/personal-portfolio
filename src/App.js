@@ -21,7 +21,7 @@ function App() {
               "value": 50
             },
             "size": {
-              "value": 4
+              "value": 2
             }
           },
           "interactivity": {
@@ -34,7 +34,7 @@ function App() {
           }
         }}
         height='100vh'
-        style={{ position: 'absolute', zIndex: '-9999' }}
+        style={{ position: 'absolute', zIndex: '-9999'}}
       />
       <div style={{ position: 'relative', zIndex: '9999' ,overflowX:'hidden'}}>
         <Navbar></Navbar>
