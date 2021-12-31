@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './About.css'
-import profile from '../../image/iftekhar1.png';
+import profile from '../../image/Iftekhar-1.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookSquare, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Aos from 'aos';
