@@ -27,7 +27,7 @@ const Header = () => {
             </h3>
             <div>
                 <a className="btn btn-outline-success" target="_blank" href="https://www.linkedin.com/in/iftekhar-hasan-6a73951b9/">Hire me </a>
-                <a className="btn btn-success ms-2" target="_blank" href='https://drive.google.com/uc?export=download&id=10JQ5o75BlmmsIXs4STXMpoZ8Nqkq4MSW'><FontAwesomeIcon icon={faFileDownload} /> Download Resume</a>
+                <a className="btn btn-success ms-2" target="_blank" href='https://drive.google.com/uc?export=download&id=1olg7dIt8brzSEV5hFuDlJ7j02PsYubRZ'><FontAwesomeIcon icon={faFileDownload} /> Download Resume</a>
             </div>
 
         </section>

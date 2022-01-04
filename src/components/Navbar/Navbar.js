@@ -19,7 +19,7 @@ const Navbar = () => {
                             <Link className="nav-link links active me-2 text-white" to="blogs" smooth={true} duration={1000}>Blogs</Link>
                             <Link className="nav-link links active me-2 text-white" to="contact" smooth={true} duration={1000}>Contact</Link>
                             <div className="d-flex justify-content-center">
-                                <a className="nav-link resume-btn" target="_blank" href="https://drive.google.com/file/d/10JQ5o75BlmmsIXs4STXMpoZ8Nqkq4MSW/view?usp=sharing">Resume</a>
+                                <a className="nav-link resume-btn" target="_blank" href="https://drive.google.com/file/d/1olg7dIt8brzSEV5hFuDlJ7j02PsYubRZ/view?usp=sharing">Resume</a>
                             </div>
                         </div>
                     </div>
